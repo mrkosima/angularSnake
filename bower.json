@@ -1,0 +1,18 @@
+{
+  "name": "angularSnake",
+  "description": "Snake game in angularJS",
+  "main": "app/index.html",
+  "authors": [
+    "mrkosima <mrkosima@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mrkosima/angularSnake",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
