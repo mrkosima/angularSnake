@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
     <title>Snake in angularJS</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Snake in angularJS</h1>
+<div class="container">
+    <div ng-view class="view-frame"></div>
+</div>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="app.js"></script>
+<script src="game/snake.js"></script>
+
 </body>
 </html>

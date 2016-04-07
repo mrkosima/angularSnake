@@ -1,0 +1,31 @@
+body {
+    background-color: #B8AE9C;
+    color: #595241;
+    font-family: Verdana;
+}
+
+.container {
+    min-width: 600px;
+    margin: 10px;
+}
+
+.scoresContainer {
+    padding-bottom: 10px;
+}
+
+.snakeContainer {
+    margin: auto;
+    width: 600px;
+}
+
+.row {
+    height: 25px;
+}
+
+.column {
+    border: 1px solid #97b9b6;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+

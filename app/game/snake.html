@@ -1,0 +1,15 @@
+<div class="snakeContainer" class="row">
+    <h1>Snake in angularJS</h1>
+    <div class="scoresContainer">
+        <div class="best-container">Max score: {{game.highScore}}</div>
+        <div class="score-container">Score: {{game.currentScore}}</div>
+    </div>
+    <div>
+        <div class="row" ng-repeat="column in board">
+            <div ng-repeat="row in column track by $index"
+                 class="column"
+                 ng-style="{'background-color':getColor($index, $parent.$index)}">
+            </div>
+        </div>
+    </div>
+</div>
