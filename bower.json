@@ -1,5 +1,5 @@
 {
-  "name": "angularSnake",
+  "name": "angularsnake",
   "description": "Snake game in angularJS",
   "main": "app/index.html",
   "authors": [
