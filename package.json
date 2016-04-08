@@ -8,7 +8,7 @@
   "scripts": {
     "postinstall": "./node_modules/bower/bin/bower install",
     "prestart": "npm install",
-    "start": "http-server -c-1 -d true",
+    "start": "http-server app -c-1 -d false",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
