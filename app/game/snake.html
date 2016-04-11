@@ -3,6 +3,8 @@
     <div class="scoresContainer">
         <div class="best-container">Max score: {{game.highScore}}</div>
         <div class="score-container">Score: {{game.currentScore}}</div>
+        <div class="immortal-hint" ng-show="game.totalGames > 1 && !game.immortal">Try to type <span class="iddqd">IDDQD</span></div>
+        <div class="immortal-timer" ng-show="game.timeout > 0">Immortal mode expires in <span class="iddqd">{{game.timeout}}</span> sec</div>
     </div>
     <div>
         <div class="row" ng-repeat="column in board">

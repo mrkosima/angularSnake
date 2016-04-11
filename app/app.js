@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 angular.module('app', ['ngRoute', 'snake'])
     .config(['$routeProvider', function ($routeProvider) {
